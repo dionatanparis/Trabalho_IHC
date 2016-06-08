@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/estilo.css" />
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+</head>
+
+<body>
+  <nav class=" light-blue" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo">Study Help</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a title="Home" alt="Home do site" href="index.html">Home</a></li>
+        <li><a title="Atividades" alt="pagina de atividades" href="atividades.html">Atividades</a></li>
+        <li><a title="Biblioteca" alt="pagina biblioteca" href="biblioteca.html">Biblioteca</a></li>
+        <li><a title="Disciplinas" alt="pagina disciplinas" href="disciplinas.html">Disciplinas</a></li>
+        <li><a title="Perfil" alt="Pagina de Perfil" href="perfil.html">Perfil</a></li>
+      </ul>
+      <ul id="nav-mobile" class="side-nav" style="left:-250px">
+        <li><a title="Home" alt="Home do site" href="index.html">Home</a></li>
+        <li><a title="Atividades" alt="pagina de atividades" href="atividades.html">Atividades</a></li>
+        <li><a title="Biblioteca" alt="pagina biblioteca" href="biblioteca.html">Biblioteca</a></li>
+        <li><a title="Disciplinas" alt="pagina disciplinas" href="disciplinas.html">Disciplinas</a></li>
+        <li><a title="Perfil" alt="Pagina de Perfil" href="perfil.html">Perfil</a></li>
+      </ul>
+      <a href="#" class="button-collapse" data-activates="nav-mobile">
+        <i class="material-icons">menu</i>
+      </a>
+    </div>
+  </nav>
+  <nav class="light-blue">
+    <div class="nav-wrapper container ">
+      <div class="col s12">
+        <a href="#!" title="Início site" class="breadcrumb">Home</a>
+        <a href="#!" title="Perfil" class="breadcrumb">Perfil</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s6 m6 l6">
+          <h5>Perfil</h5>
+        </div>
+        <div class="col s6 m6 l6 right-align">
+          <div class="perfil_img">
+            <img title="Imagem do perfil" alt="Imagem do perfil" class="circle responsive-img" alt="Foto do perfil" src="perfil.jpg">
+          </div>
+          Selecione sua foto de Perfil
+        </div>
+        <div class="col s12 m12 l12">
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s4">
+                  <input title="Informe o seu nome" id="Nome" type="text" class="validate">
+                  <label  for="nome" data-success="right">Nome</label>
+                </div>
+                <div class="input-field col s4">
+                  <input title="Informe o seu sobrenome" id="professor" type="text" class="validate">
+                  <label  for="professor" data-success="right">Sobrenome</label>
+                </div>
+                <div class="input-field col s4">
+                  <input title="Informe o seu e-mail" id="professor" type="text" class="validate">
+                  <label  for="professor" data-success="right">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div id="select_data" class="data-field col s2">
+                  <label>Data Nasc</label>
+                  <input title="Informar a data de nascimento" type="date" class="datepicker">
+                </div>
+
+                <div class=" input-field col s2">
+                  <select title="Selecione o seu sexo">
+                    <option value="" disabled selected>Selecionar</option>
+                    <option value="1">Masculino</option>
+                    <option value="2">Feminino</option>
+                    <option value="3">Outro</option>
+                    
+                  </select>
+                  <label>Sexo</label>
+                </div>
+                <div class="input-field col s4">
+                  <input title="Informe o seu endereço" id="fim" type="text" class="validate">
+                  <label   for="fim" data-success="right">Endereco</label>
+                </div>
+                <div class="input-field col s4">
+                  <input  title="Informe o seu estado" id="fim" type="text" class="validate">
+                  <label  for="fim" data-success="right">Estado</label>
+                </div>
+                <div class="row">
+                  <div class="input-field col s4">
+                    <input title="Informe a cidade" id="cidade" type="text" class="materialize-textarea"></textarea>
+                    <label for="cidade">Cidade</label>
+                  </div>
+                  <div class="input-field col s4">
+                    <input title="Informe o curso" id="curso" type="text" class="materialize-textarea"></textarea>
+                    <label for="curso">Curso</label>
+                  </div>
+                  <div class="input-field col s4">
+                    <input title="informe um Telefone" id="telefone" type="text" class="materialize-textarea"></textarea>
+                    <label for="telefone">Telefone</label>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col s4">
+                    <button  title="Editar Perfil" class="btn waves-effect waves-light" type="submit" name="action">Editar
+                            <i class="material-icons right">queue</i>
+                    </button>
+                  </div>
+                  <div class="col s4">
+                    <button title="Salvar Perfil" class="btn waves-effect waves-light" type="submit" name="action">Salvar
+                          <i class="material-icons right">send</i>
+                    </button>
+                  </div>
+                  <div class="col s4">
+                    <button title="Cancelar ação" class="btn waves-effect waves-light" type="submit" name="action">Cancelar
+                          <i class="material-icons right">send</i>
+                    </button>
+                  </div>
+                </div>
+            </form>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <div style="" class="drag-target"></div>
+    <script>
+    $(document).ready(function(){
+             $(".button-collapse").sideNav();
+                $('select').material_select();
+                
+               
+          }) 
+           $('.datepicker').pickadate({
+                   selectMonths: true, // Creates a dropdown to control month
+                   selectYears: 15 // Creates a dropdown of 15 years to control year
+                });
+           $(".button-collapse").sideNav();
+  </script>
+
+</body>
+
+</html>

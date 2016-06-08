@@ -1,0 +1,82 @@
+.container .home_left{
+    height: 150px;
+    margin-left: 10px;  
+    background-color: cadetblue;
+    
+}
+
+.container .home_right{
+    height: 150px;
+    margin-left: 10px;
+    background-color: cadetblue;
+    border-left: dashed 3px lightslategrey;
+}
+
+
+.container .label_pesquisar{
+    color: white;
+    font-size: 15px;
+}
+
+#biblioteca_nav .barra_pesquisa label{
+    color: white;
+}
+
+#rate .ratelist {
+    float: left !important;   
+}
+.padding-left30{
+    padding-left: 30px;
+}
+
+
+ #biblioteca_nav [type="radio"]:checked + label::after {
+	border-radius: 50%;
+	border: 2px solid #5a5a5a;
+	background-color: #5a5a5a;
+	z-index: 0;
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+#select_data{
+margin-top: -8px !important;
+}
+
+.perfil_img img{
+    width: 80px;
+    height: 80px;
+}
+.perfil_img{
+    padding-right: 45px;
+}
+
+#rate{
+    padding-left: 50px !important;
+} 
+
+#banner1 h3{
+color: white;
+background-color: slategray;
+}
+
+#banner1 h5{
+    background-color: slategray
+}
+
+#banner4 h3{
+  color: black;
+  margin-top: -55px;
+}
+
+#banner4 h5{
+  color: rgb(253, 175, 23);
+}
+
+#footer label{
+    color: white;
+    font-size: 1rem;
+}
+.space{
+    margin-top: 30px;
+}
